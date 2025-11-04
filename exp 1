@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{   
+    int counter=0;
+    int n;
+    scanf("%d",&n);
+    int i=1;
+    counter++;
+    int s=1;
+    counter++;
+   
+    
+    while(s<=n)
+    {   
+        
+        counter++;
+        i++;
+        counter++;
+        s+=i;
+        counter++;
+        
+    }
+    counter++;
+    printf("%d",counter);
+    return 0;
+}
