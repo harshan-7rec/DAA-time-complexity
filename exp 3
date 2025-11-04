@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{   
+    int c=0;
+    int num;
+    scanf("%d",&num);
+    for(int i=1;i<=num;i++){
+        c++;
+        if(num%i==0){
+            c++;
+            //c++;
+        }
+        c++;
+    }
+    c++;
+    printf("%d",c);
+}
